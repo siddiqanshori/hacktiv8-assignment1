@@ -5,7 +5,7 @@
 }
 
 .jumbotron{
-    background-image: url(/img/4.avif);
+    background-image: url(../img/4.avif);
     background-size: cover;
     color: white;
     text-align: center;
