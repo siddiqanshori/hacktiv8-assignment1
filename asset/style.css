@@ -1,0 +1,62 @@
+/* Navbar */
+.navbar-brand{
+    font-family: Viga;
+    font-size: 32px;
+}
+
+.jumbotron{
+    background-image: url(/img/4.avif);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+
+/* .logo-footer{
+    width: 350px;
+} */
+
+
+
+
+
+/* Media Query */
+/* Desktop */
+@media (min-width:992px){
+
+    /* .navbar-brand, .nav-link{
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    } */
+
+    .nav-item{
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
+
+    /* .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    } */
+
+    .dropdown-toggle:hover{
+        margin-bottom: -8px;
+    }
+
+    .login{
+        margin-left: 80px;
+    }
+
+    .tombol{
+        text-transform: uppercase;
+        border-radius: 7px;
+    }
+
+}
+
+
+/* Mobile */

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- My CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="asset/portfolio.css" />
+
+    <title>Challange Siddiq</title>
+  </head>
+  <body>
+
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="gallery">GALLERY</a></li>
+        <li><a href="blog">BLOG</a></li>
+        <li><a href="inventory">INVENTORY</a></li>
+      </ul>
+    </nav>
+
+    <div class="header">
+      <div class="person">
+        <div class="person-image">
+          <img src="img/logo hacktiv8.png" alt="logo" />
+        </div>
+
+        <div>
+           <h5 id="setNama">Siddiq Ahmad Anshori</h5>
+           <p>Web Developer</p>
+           
+          <div class="person-profile">
+            <a href="#" class="kontak btn indigo waves-effect waves-light">Kontak</a>
+            <a href="#" class="resume btn indigo waves-effect waves-light">Resume</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="person-data">
+        <div class="data">
+          <strong>Availability</strong>
+          <p>Fulltime</p>
+        </div>
+        <div class="data">
+          <strong>Usia</strong>
+          <p>20</p>
+        </div>
+        <div class="data">
+          <strong>Lokasi</strong>
+          <p>Bandung</p>
+        </div>
+        <div class="data">
+          <strong>Pengalaman</strong>
+          <p>2</p>
+        </div>
+        <div class="data">
+          <strong>Email</strong>
+          <p>siddiq.anshori@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="formulir">
+      <form action="">
+        <label for="">Nama</label>
+        <input type="text" name="nama" id="nama" placeholder="Masukan nama anda" /><br />
+        <label for="">Role</label>
+        <input type="text" name="" id="" placeholder="Masukan Role anda" /><br />
+        <label for="">Availability</label>
+        <input type="text" name="" id="" placeholder="Masukan Availability anda" /><br />
+        <label for="">Usia</label>
+        <input type="text" name="" id="" placeholder="Masukan usia anda" /><br />
+        <label for="">Lokasi</label>
+        <input type="text" name="" id="" placeholder="Masukan lokasi anda" /><br />
+        <label for="">Years Experience</label>
+        <input type="text" name="" id="" placeholder="Masukan Experience anda" /><br />
+        <label for="">Email</label>
+        <input type="text" name="" id="" placeholder="Masukan email anda" /><br />
+
+        <input type="submit" value="Submit" id="simpan">
+      </form>
+    </div>
+    <!-- <div id="demoTest">
+      <p>The initial text</p>
+   </div> -->
+
+    <script>
+      $(document).ready(function(){
+        $('#simpan').click(function(){
+          // alert("Value: " + $("#nama").val());
+          var valNama = $('#nama').text();
+          // alert(valNama);
+          // $('#bismillah').text("valNama");
+          $('#demoTest').text('valNama');
+        });
+      });
+    </script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
